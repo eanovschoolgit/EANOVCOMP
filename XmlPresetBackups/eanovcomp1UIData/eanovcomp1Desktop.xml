@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ContentProperties DeviceType="Desktop">
+  <Component type="ScriptImage" id="Image1" x="-2" y="-2" width="300" height="1000"
+             fileName="C:\Users\lewis\Desktop\project hise\equalizer eanov\Images\eanovcomp1.jpg"/>
+  <Component type="ScriptSlider" id="Knob2" x="52" y="179" width="92" height="90"
+             numStrips="128" mode="Decibel" max="128" stepSize="0.1" suffix=" dB"
+             middlePosition="64" macroControl="Macro 1" showValuePopup="Above"
+             filmstripImage="C:\Users\lewis\Desktop\project hise\equalizer eanov\Images\new128.png"
+             scaleFactor="0.6"/>
+  <Component type="ScriptSlider" id="Knob3" x="157" y="179" width="92" height="90"
+             numStrips="128" processorId="Simple Gain1" parameterId="Gain"
+             max="25" showValuePopup="Above" filmstripImage="C:\Users\lewis\Desktop\project hise\equalizer eanov\Images\new128.png"
+             scaleFactor="0.6"/>
+  <Component type="ScriptSlider" id="Knob4" x="52" y="292" width="92" height="90"
+             numStrips="128" processorId="Dynamics" parameterId="CompressorAttack"
+             max="100" middlePosition="12" defaultValue="2.8" stepSize="0.1"
+             showValuePopup="Above" scaleFactor="0.6" filmstripImage="C:\Users\lewis\Desktop\project hise\equalizer eanov\Images\new128.png"/>
+  <Component type="ScriptSlider" id="Knob5" x="157" y="292" width="92" height="90"
+             numStrips="128" processorId="Dynamics" parameterId="CompressorRelease"
+             max="300" middlePosition="12" defaultValue="1" showValuePopup="Above"
+             filmstripImage="C:\Users\lewis\Desktop\project hise\equalizer eanov\Images\new128.png"
+             scaleFactor="0.6"/>
+  <Component type="ScriptSlider" id="Knob6" x="52" y="396" width="92" height="90"
+             numStrips="128" processorId="Dynamics" parameterId="CompressorRatio"
+             max="32" min="1.1" defaultValue="1.1" middlePosition="4" showValuePopup="Above"
+             stepSize="0.1" filmstripImage="C:\Users\lewis\Desktop\project hise\equalizer eanov\Images\new128.png"
+             scaleFactor="0.6"/>
+  <Component type="ScriptSlider" id="Reduction" x="48" y="15" min="-60" middlePosition="-14"
+             numStrips="128" width="217" height="140" scaleFactor="0.5" max="0"
+             filmstripImage="C:\Users\lewis\Desktop\project hise\equalizer eanov\Images\vu ok parfect 128.png"/>
+  <Component type="ScriptSlider" id="Knob1" x="94" y="108" middlePosition="-14"
+             linkedTo="Reduction" min="-60" max="0" saveInPreset="0" processorId=""
+             visible="0"/>
+  <Component type="ScriptLabel" id="Label1" x="52" y="253" width="92" height="31"
+             text="THRES" fontName="LEMON MILK" fontStyle="Bold" editable="0"
+             enabled="0"/>
+  <Component type="ScriptLabel" id="Label2" x="157" y="253" width="92" height="31"
+             text="GAIN IN" fontName="LEMON MILK" fontStyle="Bold" editable="0"
+             enabled="0"/>
+  <Component type="ScriptLabel" id="Label3" x="52" y="367" width="92" height="31"
+             text="ATTACK" fontName="LEMON MILK" fontStyle="Bold" editable="0"
+             enabled="0"/>
+  <Component type="ScriptLabel" id="Label4" x="157" y="367" width="92" height="31"
+             text="RELEASE" fontName="LEMON MILK" fontStyle="Bold" editable="0"
+             enabled="0"/>
+  <Component type="ScriptLabel" id="Label5" x="52" y="469" width="92" height="31"
+             text="RATIO" fontName="LEMON MILK" fontStyle="Bold" editable="0"
+             enabled="0"/>
+  <Component type="ScriptButton" id="Button1" x="197" y="521" text="ANALOG"
+             scaleFactor="0.15" width="48" height="48" processorId="Parametriq EQ1"
+             parameterId="Enabled" filmstripImage="C:\Users\lewis\Desktop\project hise\equalizer eanov\Images\ANALOG.png"/>
+  <Component type="ScriptButton" id="Button2" x="57" y="521" text="ANALOG"
+             scaleFactor="0.15" width="48" height="48" processorId="filter"
+             parameterId="Bypass" filmstripImage="C:\Users\lewis\Desktop\project hise\equalizer eanov\Images\LC-ON-OFF.png"/>
+  <Component type="ScriptComboBox" id="CB" x="51" y="569" items="20 HZ&#10;40 HZ&#10;100 HZ&#10;120 HZ&#10;140 HZ&#10;160 HZ&#10;180 HZ&#10;200 HZ&#10;220 HZ&#10;240 HZ&#10;260 HZ&#10;280 HZ&#10;"
+             max="12" width="60" height="35" bgColour="16711680" itemColour="16711680"
+             itemColour2="1118481" fontSize="52" fontName="LEMON MILK"/>
+  <Component type="ScriptButton" id="Button3" x="127" y="521" text="ANALOG"
+             scaleFactor="0.15" width="48" height="48" processorId="Dynamics"
+             parameterId="CompressorMakeup" filmstripImage="C:\Users\lewis\Desktop\project hise\equalizer eanov\Images\makeup.png"/>
+  <Component type="ScriptLabel" id="Label6" x="157" y="468" width="92" height="31"
+             text="GAIN out" fontName="LEMON MILK" fontStyle="Bold" editable="0"
+             enabled="0"/>
+  <Component type="ScriptSlider" id="Knob7" x="157" y="395" width="92" height="90"
+             numStrips="128" processorId="Simple Gain2" parameterId="Gain"
+             max="25" showValuePopup="Above" filmstripImage="C:\Users\lewis\Desktop\project hise\equalizer eanov\Images\new128.png"
+             scaleFactor="0.6" min="-25"/>
+  <Component type="ScriptSlider" id="rightMeter" x="50" y="602" numStrips="128"
+             width="211" height="144" scaleFactor="0.5" mouseSensitivity="56"
+             middlePosition="0.5" filmstripImage="C:\Users\lewis\Desktop\project hise\equalizer eanov\Images\left vu metre 128.png"/>
+  <Component type="ScriptSlider" id="leftMeter" x="50" y="602" numStrips="128"
+             width="211" height="144" scaleFactor="0.5" mouseSensitivity="56"
+             middlePosition="0.5" filmstripImage="C:\Users\lewis\Desktop\project hise\equalizer eanov\Images\right vu metre 128.png"/>
+</ContentProperties>

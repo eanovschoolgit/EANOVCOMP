@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ProjectSettings>
+  <Name value="EANOV SCHOOL COMP "/>
+  <Version value="1.0.0"/>
+  <Description value=""/>
+  <BundleIdentifier value="FR.EANOV.EANOVCOMP"/>
+  <PluginCode value="Ecom"/>
+  <EmbedAudioFiles value="1"/>
+  <EmbedImageFiles value="Yes"/>
+  <SupportFullDynamicsHLAC value="No"/>
+  <AdditionalDspLibraries value=""/>
+  <OSXStaticLibs value=""/>
+  <WindowsStaticLibFolder value=""/>
+  <ExtraDefinitionsWindows value="ENABLE_ALL_PEAK_METER=1&#13;&#10;ENABLE_PEAK_METERS_FOR_GAIN_EFFECT=1"/>
+  <ExtraDefinitionsOSX value=""/>
+  <ExtraDefinitionsIOS value=""/>
+  <ExtraDefinitionsLinux value=""/>
+  <AppGroupID value=""/>
+  <RedirectSampleFolder value=""/>
+  <AAXCategoryFX value="AAX_ePlugInCategory_Modulation"/>
+  <SupportMonoFX value="0"/>
+  <EnableMidiInputFX value="no"/>
+  <VST3Support value="0"/>
+  <UseRawFrontend value="No"/>
+  <ExpansionType value="Disabled"/>
+  <EncryptionKey value=""/>
+  <LinkExpansionsToProject value="No"/>
+</ProjectSettings>

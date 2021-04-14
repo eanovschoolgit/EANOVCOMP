@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ContentProperties DeviceType="Desktop">
+  <Component type="ScriptImage" id="Image1" x="0" y="0" width="802" height="502"
+             fileName="{PROJECT_FOLDER}nouveau/bnck.jpg"/>
+  <Component type="ScriptImage" id="Image2" x="107" y="45" width="269" height="366"
+             fileName="{PROJECT_FOLDER}nouveau/cadre.png"/>
+  <Component type="ScriptSlider" id="Knob2" x="417" y="128" width="70" height="68"
+             numStrips="128" mode="Decibel" max="0" stepSize="0.1" suffix=" dB"
+             middlePosition="-50" macroControl="No MacroControl" showValuePopup="Below"
+             min="-100" text="THRESHOLD" scaleFactor="0.45" filmstripImage="{PROJECT_FOLDER}nouveau/knob (30).png"
+             pluginParameterName="THRESHOLD"/>
+  <Component type="ScriptSlider" id="Knob3" x="30" y="118" width="70" height="68"
+             numStrips="128" processorId="Simple Gain1" parameterId="Gain"
+             max="25" showValuePopup="Below" mode="Decibel" text="INPUT" scaleFactor="0.45"
+             filmstripImage="{PROJECT_FOLDER}nouveau/knob (30).png"/>
+  <Component type="ScriptSlider" id="Knob4" x="498" y="70" width="70" height="68"
+             numStrips="128" processorId="Dynamics" parameterId="CompressorAttack"
+             max="100" middlePosition="12" defaultValue="2.8" stepSize="0.1"
+             showValuePopup="Below" suffix="ms" mode="Time" text="ATTACK"
+             scaleFactor="0.45" filmstripImage="{PROJECT_FOLDER}nouveau/knob (30).png"
+             pluginParameterName="ATTACK"/>
+  <Component type="ScriptSlider" id="Knob5" x="589" y="127" width="70" height="68"
+             numStrips="128" processorId="Dynamics" parameterId="CompressorRelease"
+             max="300" middlePosition="12" defaultValue="1" showValuePopup="Below"
+             suffix="ms" mode="Time" text="RELEASE" scaleFactor="0.45" filmstripImage="{PROJECT_FOLDER}nouveau/knob (30).png"
+             pluginParameterName="RELEASE"/>
+  <Component type="ScriptSlider" id="Knob6" x="678" y="65" width="70" height="68"
+             numStrips="128" processorId="Dynamics" parameterId="CompressorRatio"
+             max="20" min="1.1" defaultValue="1.2" middlePosition="4" showValuePopup="Below"
+             stepSize="0.1" text="RATIO" scaleFactor="0.45" filmstripImage="{PROJECT_FOLDER}nouveau/knob (30).png"
+             pluginParameterName="RATIO"/>
+  <Component type="ScriptImage" id="Image8" x="147" y="75" width="185" height="117"
+             alpha="0.5" enabled="0" fileName="{PROJECT_FOLDER}nouveau/grad-vu-meter-comp.png"/>
+  <Component type="ScriptLabel" id="Label9" x="161" y="121" text="DB  " fontName="LEMON MILK"
+             fontStyle="Bold" width="158" height="37" fontSize="15" textColour="2810940299"
+             editable="0"/>
+  <Component type="ScriptLabel" id="Label10" x="163" y="315" text="MASTER VU"
+             fontName="LEMON MILK" fontStyle="Bold" width="158" height="49"
+             fontSize="15" textColour="2810940299" editable="0"/>
+  <Component type="ScriptLabel" id="Label11" x="164" y="134" text="REDUCTION"
+             fontName="LEMON MILK" fontStyle="Bold" width="158" height="37"
+             fontSize="15" textColour="2810940299" editable="0"/>
+  <Component type="ScriptSlider" id="Reduction" x="126" y="64" min="-60" middlePosition="-14"
+             numStrips="128" width="232" height="154" scaleFactor="0.55" max="0"
+             filmstripImage="{PROJECT_FOLDER}reduc aiguillie 128.png" saveInPreset="0"/>
+  <Component type="ScriptSlider" id="Knob1" x="94" y="161" middlePosition="-14"
+             linkedTo="Reduction" min="-60" max="0" saveInPreset="0" processorId=""
+             enabled="0" visible="0"/>
+  <Component type="ScriptLabel" id="Label1" x="52" y="306" width="92" height="31"
+             text="" fontName="LEMON MILK" fontStyle="Bold" editable="0" visible="0"/>
+  <Component type="ScriptLabel" id="Label2" x="157" y="306" width="92" height="31"
+             text="" fontName="LEMON MILK" fontStyle="Bold" editable="0" visible="0"/>
+  <Component type="ScriptLabel" id="Label3" x="52" y="420" width="92" height="31"
+             text="" fontName="LEMON MILK" fontStyle="Bold" editable="0" visible="0"/>
+  <Component type="ScriptLabel" id="Label4" x="157" y="420" width="92" height="31"
+             text="" fontName="LEMON MILK" fontStyle="Bold" editable="0" visible="0"/>
+  <Component type="ScriptLabel" id="Label5" x="52" y="522" width="92" height="31"
+             text="" fontName="LEMON MILK" fontStyle="Bold" editable="0" visible="0"/>
+  <Component type="ScriptButton" id="Button1" x="489" y="254" text="ANALOG"
+             scaleFactor="0.33" width="68" height="69" isPluginParameter="1"
+             isMetaParameter="1" filmstripImage="{PROJECT_FOLDER}2021-ANALOG.png"
+             isVertical="0" processorId="Parametriq EQ1" parameterId="Enabled"
+             pluginParameterName="ANALOG"/>
+  <Component type="ScriptButton" id="Button2" x="407" y="254" text="LOW CUT"
+             scaleFactor="0.33" width="72" height="70" isPluginParameter="1"
+             isMetaParameter="1" filmstripImage="{PROJECT_FOLDER}2021LOWCUT.png"
+             isVertical="0" pluginParameterName="LOWCUT"/>
+  <Component type="ScriptButton" id="Button7" x="36" y="223" text="BYPASS"
+             scaleFactor="0.2" width="42" height="41" isPluginParameter="1"
+             isMetaParameter="1" filmstripImage="{PROJECT_FOLDER}2021BYPASS.png"
+             isVertical="0" pluginParameterName="BYPASS"/>
+  <Component type="ScriptButton" id="Button3" x="708" y="302" text="MAKE UP"
+             scaleFactor="0.2" width="47" height="47" isPluginParameter="1"
+             isMetaParameter="1" filmstripImage="{PROJECT_FOLDER}2021-AUTOMAKEUP.png"
+             isVertical="0" processorId="Dynamics" parameterId="CompressorMakeup"
+             pluginParameterName="MAKEUP"/>
+  <Component type="ScriptSlider" id="monoMeter" x="130" y="262" numStrips="128"
+             width="225" height="142" scaleFactor="0.55" mouseSensitivity="56"
+             middlePosition="0.5" showValuePopup="Below" text="" filmstripImage="{PROJECT_FOLDER}master aiguille 128.png"
+             max="1.5" saveInPreset="0"/>
+  <Component type="ScriptLabel" id="Label6" x="157" y="522" width="92" height="31"
+             text="" fontName="LEMON MILK" fontStyle="Bold" editable="0" enabled="0"
+             visible="0"/>
+  <Component type="ScriptSlider" id="Knob7" x="697" y="216" width="70" height="68"
+             numStrips="128" max="25" showValuePopup="Below" min="-25" mode="Decibel"
+             processorId="master" parameterId="Gain" text="OUPUT" scaleFactor="0.45"
+             filmstripImage="{PROJECT_FOLDER}nouveau/knob (30).png" pluginParameterName="OUTPUT"/>
+  <Component type="ScriptLabel" id="Label7" x="4" y="475" width="283" height="37"
+             text="" editable="0" visible="0"/>
+  <Component type="ScriptLabel" id="Label8" x="4" y="558" width="283" height="37"
+             text="" editable="0" visible="0"/>
+  <Component type="ScriptPanel" id="Panel1" x="413" y="316" width="58" height="26"
+             itemColour="0" itemColour2="0" bgColour="4283118901" textColour="2516582400"
+             visible="0">
+    <Component type="ScriptComboBox" id="CB" x="2" y="1" items="20 HZ&#10;40 HZ&#10;100 HZ&#10;120 HZ&#10;140 HZ&#10;160 HZ&#10;180 HZ&#10;200 HZ&#10;220 HZ&#10;240 HZ&#10;260 HZ&#10;280 HZ&#10;"
+               max="12" width="54" height="24" bgColour="16711680" itemColour="16711680"
+               itemColour2="1118481" fontSize="52" fontName="LEMON MILK" parentComponent="Panel1"/>
+  </Component>
+  <Component type="ScriptButton" id="preset" x="7" y="421" text="" bgColour="16777215"
+             itemColour="3355443" itemColour2="1118481" textColour="16777215"/>
+  <Component type="ScriptButton" id="Button10" x="568" y="254" text="SOFT CLIP"
+             scaleFactor="0.33" width="72" height="72" isPluginParameter="1"
+             isMetaParameter="1" processorId="Script FX1" parameterId="Enabled"
+             filmstripImage="{PROJECT_FOLDER}2021-soft-clip.png" isVertical="0"
+             pluginParameterName="SOFT CLIP"/>
+  <Component type="ScriptImage" id="Image9" x="144" y="268" width="190" height="121"
+             alpha="0.5" fileName="{PROJECT_FOLDER}mastergradd.png"/>
+  <Component type="ScriptPanel" id="Panel2" x="1" y="1" width="321" height="412"
+             itemColour="0" itemColour2="0" textColour="16777215" bgColour="16777215"
+             visible="0">
+    <Component type="ScriptFloatingTile" id="FloatingTile2" x="0" y="0" ContentType="PresetBrowser"
+               bgColour="3539992576" itemColour="4291677645" itemColour2="16711725"
+               Data="{&#13;&#10;  &quot;ShowSaveButton&quot;: true,&#13;&#10;  &quot;ShowExpansionsAsColumn&quot;: false,&#13;&#10;  &quot;ShowFolderButton&quot;: false,&#13;&#10;  &quot;ShowNotes&quot;: false,&#13;&#10;  &quot;ShowEditButtons&quot;: true,&#13;&#10;  &quot;ShowFavoriteIcon&quot;: false,&#13;&#10;  &quot;NumColumns&quot;: 1,&#13;&#10;  &quot;ColumnWidthRatio&quot;: [&#13;&#10;    0.3333333333333333,&#13;&#10;    0.3333333333333333,&#13;&#10;    0.3333333333333333&#13;&#10;  ]&#13;&#10;}"
+               width="321" height="412" parentComponent="Panel2" textColour="4278225351"/>
+  </Component>
+  <Component type="ScriptLabel" id="Label19" x="29" y="420" text="PRESET"
+             fontStyle="Bold" alignment="left" width="95" height="29" editable="0"/>
+  <Component type="ScriptButton" id="Button9" x="706" y="415" width="84" height="35"
+             filmstripImage="{PROJECT_FOLDER}videbutton.png" saveInPreset="0"/>
+  <Component type="ScriptButton" id="Button4" x="411" y="374" text="LOW CUT"
+             scaleFactor="0.33" width="72" height="70" filmstripImage="{PROJECT_FOLDER}2021LOWCUT.png"
+             isVertical="0" processorId="filter" parameterId="Enabled" enabled="0"
+             visible="0"/>
+</ContentProperties>

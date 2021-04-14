@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ContentProperties DeviceType="Desktop">
+  <Component type="ScriptImage" id="Image1" x="-2" y="-2" width="300" height="1000"
+             fileName="{PROJECT_FOLDER}backGnd.jpg"/>
+  <Component type="ScriptSlider" id="Knob2" x="54" y="213" width="92" height="90"
+             numStrips="128" mode="Decibel" max="0" stepSize="0.1" suffix=" dB"
+             middlePosition="-50" macroControl="No MacroControl" scaleFactor="0.6"
+             filmstripImage="{PROJECT_FOLDER}knob eanov 128.png" showValuePopup="Below"
+             min="-100" text="THRESHOLD"/>
+  <Component type="ScriptSlider" id="Knob3" x="154" y="213" width="92" height="90"
+             numStrips="128" processorId="Simple Gain1" parameterId="Gain"
+             max="25" showValuePopup="Below" scaleFactor="0.6" filmstripImage="{PROJECT_FOLDER}knob eanov 128 2.png"
+             mode="Decibel" text="INPUT"/>
+  <Component type="ScriptSlider" id="Knob4" x="49" y="300" width="92" height="90"
+             numStrips="128" processorId="Dynamics" parameterId="CompressorAttack"
+             max="100" middlePosition="12" defaultValue="2.8" stepSize="0.1"
+             showValuePopup="Below" scaleFactor="0.6" filmstripImage="{PROJECT_FOLDER}knob eanov 128 2.png"
+             suffix="ms" mode="Time" text="ATTACK"/>
+  <Component type="ScriptSlider" id="Knob5" x="154" y="300" width="92" height="90"
+             numStrips="128" processorId="Dynamics" parameterId="CompressorRelease"
+             max="300" middlePosition="12" defaultValue="1" showValuePopup="Below"
+             scaleFactor="0.6" filmstripImage="{PROJECT_FOLDER}knob eanov 128 2.png"
+             suffix="ms" mode="Time" text="RELEASE"/>
+  <Component type="ScriptSlider" id="Knob6" x="49" y="392" width="92" height="90"
+             numStrips="128" processorId="Dynamics" parameterId="CompressorRatio"
+             max="32" min="1.1" defaultValue="1.1" middlePosition="4" showValuePopup="Below"
+             stepSize="0.1" scaleFactor="0.6" filmstripImage="{PROJECT_FOLDER}knob eanov 128 2.png"
+             text="RATIO"/>
+  <Component type="ScriptSlider" id="Reduction" x="39" y="61" min="-60" middlePosition="-14"
+             numStrips="128" width="232" height="154" scaleFactor="0.55" max="0"
+             filmstripImage="{PROJECT_FOLDER}VU OK RECUC.png"/>
+  <Component type="ScriptSlider" id="Knob1" x="94" y="161" middlePosition="-14"
+             linkedTo="Reduction" min="-60" max="0" saveInPreset="0" processorId=""
+             enabled="0" visible="0"/>
+  <Component type="ScriptLabel" id="Label1" x="52" y="306" width="92" height="31"
+             text="" fontName="LEMON MILK" fontStyle="Bold" editable="0" enabled="0"
+             visible="0"/>
+  <Component type="ScriptLabel" id="Label2" x="157" y="306" width="92" height="31"
+             text="" fontName="LEMON MILK" fontStyle="Bold" editable="0" enabled="0"
+             visible="0"/>
+  <Component type="ScriptLabel" id="Label3" x="52" y="420" width="92" height="31"
+             text="" fontName="LEMON MILK" fontStyle="Bold" editable="0" enabled="0"
+             visible="0"/>
+  <Component type="ScriptLabel" id="Label4" x="157" y="420" width="92" height="31"
+             text="" fontName="LEMON MILK" fontStyle="Bold" editable="0" enabled="0"
+             visible="0"/>
+  <Component type="ScriptLabel" id="Label5" x="52" y="522" width="92" height="31"
+             text="" fontName="LEMON MILK" fontStyle="Bold" editable="0" enabled="0"
+             visible="0"/>
+  <Component type="ScriptButton" id="Button5" x="102" y="490" text="ANALOG"
+             width="99" height="106" processorId="Dynamics" parameterId="CompressorMakeup"
+             scaleFactor="0.3" filmstripImage="{PROJECT_FOLDER}redshad.png"/>
+  <Component type="ScriptButton" id="Button8" x="-7" y="490" text="ANALOG"
+             width="99" height="106" scaleFactor="0.3" processorId="Dynamics"
+             parameterId="Bypass" filmstripImage="{PROJECT_FOLDER}redshad.png"/>
+  <Component type="ScriptButton" id="Button6" x="45" y="489" text="ANALOG"
+             width="115" height="108" processorId="filter" parameterId="Enabled"
+             scaleFactor="0.3" filmstripImage="{PROJECT_FOLDER}shadowred.png"/>
+  <Component type="ScriptButton" id="Button4" x="213" y="490" text="ANALOG"
+             width="105" height="106" scaleFactor="0.3" processorId="Parametriq EQ1"
+             parameterId="Enabled" filmstripImage="{PROJECT_FOLDER}redshad.png"/>
+  <Component type="ScriptButton" id="Button1" x="180" y="513" text="ANALOG"
+             scaleFactor="0.15" width="49" height="50" filmstripImage="{PROJECT_FOLDER}ANALOG.png"
+             isPluginParameter="1" isMetaParameter="1"/>
+  <Component type="ScriptButton" id="Button2" x="68" y="513" text="ANALOG"
+             scaleFactor="0.15" width="49" height="50" isPluginParameter="1"
+             isMetaParameter="1" filmstripImage="{PROJECT_FOLDER}low-cut.png"/>
+  <Component type="ScriptButton" id="Button7" x="12" y="513" text="ANALOG"
+             scaleFactor="0.15" width="49" height="50" isPluginParameter="1"
+             isMetaParameter="1" filmstripImage="{PROJECT_FOLDER}bypass.png"/>
+  <Component type="ScriptButton" id="Button3" x="123" y="513" text="ANALOG"
+             scaleFactor="0.15" width="49" height="50" filmstripImage="{PROJECT_FOLDER}makeup.png"
+             isPluginParameter="1" isMetaParameter="1"/>
+  <Component type="ScriptSlider" id="monoMeter" x="38" y="589" numStrips="128"
+             width="222" height="138" scaleFactor="0.55" mouseSensitivity="56"
+             middlePosition="0.5" showValuePopup="Below" text="" filmstripImage="{PROJECT_FOLDER}mastervu.png"
+             max="1.2"/>
+  <Component type="ScriptLabel" id="Label6" x="157" y="522" width="92" height="31"
+             text="" fontName="LEMON MILK" fontStyle="Bold" editable="0" enabled="0"
+             visible="0"/>
+  <Component type="ScriptSlider" id="Knob7" x="154" y="392" width="92" height="90"
+             numStrips="128" max="25" showValuePopup="Below" scaleFactor="0.6"
+             min="-25" mode="Decibel" processorId="master" parameterId="Gain"
+             text="OUPUT" filmstripImage="{PROJECT_FOLDER}knob eanov 128.png"/>
+  <Component type="ScriptLabel" id="Label7" x="4" y="475" width="283" height="37"
+             text="" editable="0" visible="0"/>
+  <Component type="ScriptLabel" id="Label8" x="4" y="558" width="283" height="37"
+             text="" editable="0" visible="0"/>
+  <Component type="ScriptPanel" id="Panel1" x="61" y="560" width="58" height="26"
+             itemColour="4278190080" itemColour2="4278190080">
+    <Component type="ScriptComboBox" id="CB" x="0" y="0" items="20 HZ&#10;40 HZ&#10;100 HZ&#10;120 HZ&#10;140 HZ&#10;160 HZ&#10;180 HZ&#10;200 HZ&#10;220 HZ&#10;240 HZ&#10;260 HZ&#10;280 HZ&#10;"
+               max="12" width="60" height="28" bgColour="16711680" itemColour="16711680"
+               itemColour2="1118481" fontSize="52" fontName="LEMON MILK" parentComponent="Panel1"/>
+  </Component>
+  <Component type="ScriptButton" id="Button9" x="87" y="12" width="131" height="44"
+             filmstripImage="{PROJECT_FOLDER}videbutton.png" saveInPreset="0"/>
+  <Component type="ScriptButton" id="preset" x="90" y="196" saveInPreset="0"
+             text="SHOW PRESET o/1" visible="0"/>
+  <Component type="ScriptPanel" id="Panel2" x="4" y="542" width="296" height="206"
+             visible="0" enabled="0">
+    <Component type="ScriptFloatingTile" id="FloatingTile1" x="3" y="5" width="289"
+               height="197" ContentType="PresetBrowser" bgColour="4278190080"
+               itemColour="16777215" itemColour2="4293853226" Data="{&#13;&#10;  &quot;ShowSaveButton&quot;: true,&#13;&#10;  &quot;ShowExpansionsAsColumn&quot;: false,&#13;&#10;  &quot;ShowFolderButton&quot;: true,&#13;&#10;  &quot;ShowNotes&quot;: false,&#13;&#10;  &quot;ShowEditButtons&quot;: true,&#13;&#10;  &quot;ShowFavoriteIcon&quot;: false,&#13;&#10;  &quot;NumColumns&quot;: 1,&#13;&#10;  &quot;ColumnWidthRatio&quot;: [&#13;&#10;    0.3333333333333333,&#13;&#10;    0.3333333333333333,&#13;&#10;    0.3333333333333333&#13;&#10;  ]&#13;&#10;}"
+               parentComponent="Panel2" FontSize="8" itemColour3="2079284"/>
+  </Component>
+  <Component type="ScriptButton" id="Button10" x="236" y="513" text="ANALOG"
+             scaleFactor="0.15" width="49" height="50" isPluginParameter="1"
+             isMetaParameter="1" processorId="Limiter1" parameterId="Enabled"
+             filmstripImage="{PROJECT_FOLDER}soft-clip.png"/>
+</ContentProperties>
