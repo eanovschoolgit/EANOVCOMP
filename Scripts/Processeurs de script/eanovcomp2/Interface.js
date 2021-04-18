@@ -5,10 +5,7 @@ Content.makeFrontInterface(800, 450);
 const var ParametriqEQ1 = Synth.getEffect("Parametriq EQ1");
 const var Dynamics = Synth.getEffect("Dynamics");
 const var Knob1 = Content.getComponent("Knob1");
-const var Reduction = Content.getComponent("Reduction");
-const var SimpleGain1 = Synth.getEffect("Simple Gain1");
-const var master = Synth.getEffect("master");
-const var Knob2 = Content.getComponent("Knob2");
+const var Reduction = Content.getComponent("Reduction")
 
 
 
@@ -39,7 +36,6 @@ t.setTimerCallback(function()
 {
 	var v = Dynamics.getAttribute(Dynamics.CompressorReduction);
 	
-	v = Engine.getDecibelsForGainFactor(v);
 	
 	Reduction.setValue(v);
 	
@@ -52,7 +48,7 @@ t.startTimer(30);
 
 
 
-const var CB = Content.getComponent("CB");
+const var CB = Content.getComponent("CB")
 const var filter = Synth.getEffect("filter");
 
 
@@ -79,7 +75,7 @@ reg newValue, value;
 timer.setTimerCallback(function()
 {
       newValue = SimpleGain2.getCurrentLevel(0) > SimpleGain2.getCurrentLevel(1) ? SimpleGain2.getCurrentLevel(0) : SimpleGain2.getCurrentLevel(1);
-      value = (newValue > value) ? newValue : value * 0.95;
+      value = (newValue > value) 
       monoMeter.setValue(value);
 
 });
@@ -134,26 +130,7 @@ inline function onButton2Control(component, value)
 
 };
 
-Content.getComponent("Button2").setControlCallback(onButton2Control);
-
-
-
-
-
-
-// open web site //
-
-
-const var Button9 = Content.getComponent("Button9");
-
-
-inline function onButton9Control(component, value)
-{
-    Engine.openWebsite("https://www.eanovschool.com");
-};
-
-Content.getComponent("Button9").setControlCallback(onButton9Control);
-
+Content.getComponent("Button2").setControlCallback(onButton2Con);
 }
 
 
