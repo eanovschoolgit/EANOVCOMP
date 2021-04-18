@@ -20,9 +20,7 @@
             <Control type="ScriptButton" id="Button3" value="0"/>
             <Control type="ScriptSlider" id="Knob7" value="0"/>
             <Control type="ScriptComboBox" id="CB" value="1"/>
-            <Control type="ScriptButton" id="preset" value="0"/>
-            <Control type="ScriptButton" id="Button10" value="0"/>
-            <Control type="ScriptButton" id="Button4" value="0"/>
+            <Control typ
           </Content>
           <UIData Source="eanovcomp2UIData"/>
         </Processor>
