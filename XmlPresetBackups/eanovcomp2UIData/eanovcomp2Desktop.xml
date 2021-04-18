@@ -16,9 +16,7 @@
              filmstripImage="{PROJECT_FOLDER}nouveau/knob (30).png"/>
   <Component type="ScriptSlider" id="Knob4" x="498" y="70" width="70" height="68"
              numStrips="128" processorId="Dynamics" parameterId="CompressorAttack"
-             max="100" middlePosition="12" defaultValue="2.8" stepSize="0.1"
-             showValuePopup="Below" suffix="ms" mode="Time" text="ATTACK"
-             scaleFactor="0.45" filmstripImage="{PROJECT_FOLDER}nouveau/knob (30).png"
+             max="100" middlePosition="12ROJECT_FOLDER}nouveau/knob (30).png
              pluginParameterName="ATTACK"/>
   <Component type="ScriptSlider" id="Knob5" x="589" y="127" width="70" height="68"
              numStrips="128" processorId="Dynamics" parameterId="CompressorRelease"
